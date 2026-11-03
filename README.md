@@ -21,3 +21,10 @@ Caesar 是入门预备知识，未标成 2027 C 组正式题型。普通 Morse �
 ## 视频来源
 
 “视频与规则”页的链接来自 Science Olympiad 官方 Codebusters 页或 Toebes Codebusters 工具站。旧赛季讲座已标注年份，不能用于代替 2027 规则。
+
+## 老师指定的资料
+
+- [Puzzle Baron 在线 Cryptograms](https://cryptograms.puzzlebaron.com/play.php)：练单字母替换。
+- [Toebes Codebusters 工具站](https://toebes.com/codebusters/index.html)：生成练习、查解题指南。
+- [Scio.ly 2027 Study Guide](https://www.scio.ly/guides/codebusters)：英文分题型学习。
+- [Toebes Codebusters Overview PDF](https://toebes.com/codebusters/Samples/CodeBusters_Overview.pdf)：更新至 2026–27 的长篇指南，包含历史题型章节。
