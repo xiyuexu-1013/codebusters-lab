@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f5f7">
+  <meta name="description" content="Science Olympiad 2026–27 Division C Codebusters 中文互动教程、解码练习与定时模拟。">
+  <title>Codebusters 解码实验室 · 2027 Division C</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="zh.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="课程导航">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">CB</span><span>Codebusters<br><small>解码实验室</small></span></div>
+      <div class="scope">2026–27 · Division C</div>
+      <a class="language-link" id="lang-switch" href="index.html">English version ↗</a>
+      <nav class="main-nav" aria-label="主要导航">
+        <button data-view="home" class="nav-button active">学习路线</button>
+        <button data-view="lessons" class="nav-button">全部课程</button>
+        <button data-view="mock" class="nav-button">定时模拟</button>
+        <button data-view="resources" class="nav-button">视频与规则</button>
+      </nav>
+      <div class="sidebar-heading">按阶段学习</div>
+      <div id="lesson-nav" class="lesson-nav"></div>
+      <div class="sidebar-foot"><span id="sidebar-progress">0 / 12 已掌握</span><div class="progress-track"><span id="sidebar-progress-bar"></span></div><small>进度仅保存在此浏览器</small></div>
+    </aside>
+    <div class="mobile-bar"><button id="menu-toggle" aria-label="打开课程菜单" aria-expanded="false">菜单</button><strong>Codebusters</strong><a id="lang-switch-mobile" href="index.html">English</a><button id="mobile-mock" aria-label="定时模拟">模拟</button></div>
+    <main id="main" class="main" tabindex="-1"></main>
+  </div>
+</body>
+</html>

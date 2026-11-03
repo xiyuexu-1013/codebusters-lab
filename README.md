@@ -1,30 +1,30 @@
-# Codebusters 解码实验室
+# Codebusters Cipher Lab
 
-面向 Science Olympiad 2026–27 Division C 的中文互动学习网站，保留英文术语。提供 12 节分阶段课程、原创解码短题、逐步提示、自动判题、浏览器本地进度与 15 分钟混合练习。
+An interactive, bilingual learning site for Science Olympiad 2026–27 Division C Codebusters. English is the default (`dist/index.html`); the full Chinese version is at `dist/zh.html`. The language links retain the current page or lesson. Both versions share browser-local progress.
 
-## 运行
+The site includes 12 staged lessons, original short exercises, stepwise hints, automatic grading, decoding workbenches, local progress tracking, and a 15-minute mixed practice set.
 
-直接打开 `dist/index.html` 即可使用。若需要本地网页服务器，在此文件夹运行：
+## Run locally
+
+Open `dist/index.html` directly, or run:
 
 ```bash
 python3 -m http.server 8000 --directory dist
 ```
 
-浏览器访问 `http://localhost:8000`。部署静态网站时，把 `dist/` 作为网站根目录即可。本站没有服务器依赖，进度保存在当前浏览器的 `localStorage`；换设备或清除浏览器数据后无法恢复。
+Then visit `http://localhost:8000`. To deploy, use `dist/` as the static site root. There is no server dependency. Progress is stored in the browser's `localStorage`, so clearing browser data or switching devices will remove it.
 
-## 规则说明
+## Competition scope
 
-截至 2026-11-02，Science Olympiad 官方 2027 Division C 规则 PDF 由[官方规则页](https://www.soinc.org/rules-2027)的表单提供。本项目核对了[官方 Codebusters 活动页](https://www.soinc.org/codebusters-c)，并依据其链接的 Toebes 工具站所发布的[2026–27 题型汇总](https://ncc.toebes.com/codebusters/Rule-Summary-2027.html)整理课程范围。手册全文和后续[官方澄清、修订](https://www.soinc.org/events/submit-question-and-rule-clarifications)优先于本网站。各节短题为教学简化题，不声称复现正式试卷。
+As of November 2, 2026, the official 2027 Division C rules PDF is available through the form on the [Science Olympiad rules page](https://www.soinc.org/rules-2027). This site could not inspect that form-gated manual in full. It uses the [official Codebusters event page](https://www.soinc.org/codebusters-c) and its linked [2026–27 cipher summary](https://ncc.toebes.com/codebusters/Rule-Summary-2027.html) to label the lessons. The full manual and later [official clarifications or corrections](https://www.soinc.org/events/submit-question-and-rule-clarifications) take precedence.
 
-Caesar 是入门预备知识，未标成 2027 C 组正式题型。普通 Morse 作为 Fractionated Morse 的前置知识。题型汇总显示 2027 C 组包含 Aristocrat、Patristocrat、Xenocrypt、Baconian、Fractionated Morse、Porta、Homophonic、Nihilist Substitution、Checkerboard、Cryptarithm（十进制）和 Complete Columnar；不同赛事级别的要求可能不同。
+Caesar is taught as a foundation exercise, not labeled a listed 2027 Division C type. Ordinary Morse prepares students for Fractionated Morse. The short puzzles simplify contest problems and are not official test questions. Requirements can vary by tournament level.
 
-## 视频来源
+## Teacher-recommended resources
 
-“视频与规则”页的链接来自 Science Olympiad 官方 Codebusters 页或 Toebes Codebusters 工具站。旧赛季讲座已标注年份，不能用于代替 2027 规则。
+- [Puzzle Baron cryptograms](https://cryptograms.puzzlebaron.com/play.php) for monoalphabetic substitution practice.
+- [Toebes Codebusters tools](https://toebes.com/codebusters/index.html) for practice generation and solving guides.
+- [Scio.ly 2027 study guide](https://www.scio.ly/guides/codebusters) for cipher chapters and strategies.
+- [Toebes Codebusters Overview PDF](https://toebes.com/codebusters/Samples/CodeBusters_Overview.pdf), updated for 2026–27 and containing historical material to distinguish from current scope.
 
-## 老师指定的资料
-
-- [Puzzle Baron 在线 Cryptograms](https://cryptograms.puzzlebaron.com/play.php)：练单字母替换。
-- [Toebes Codebusters 工具站](https://toebes.com/codebusters/index.html)：生成练习、查解题指南。
-- [Scio.ly 2027 Study Guide](https://www.scio.ly/guides/codebusters)：英文分题型学习。
-- [Toebes Codebusters Overview PDF](https://toebes.com/codebusters/Samples/CodeBusters_Overview.pdf)：更新至 2026–27 的长篇指南，包含历史题型章节。
+The site's Resources page also links videos listed by Science Olympiad or the Toebes tool site. Older videos are labeled by season and do not replace current rules.
