@@ -2,3 +2,18 @@
 
 @media (min-width:761px) and (max-width:1000px){.summary{grid-template-columns:1fr}.summary .primary{justify-self:start}}
 .language-link{display:block;margin:0 12px 18px;font-size:13px;font-weight:600;color:var(--blue);text-decoration:none}.language-link:hover{text-decoration:underline}.mobile-bar a{color:var(--blue);text-decoration:none;font-size:12px;font-weight:600;white-space:nowrap}.mobile-bar a:hover{text-decoration:underline}
+
+/* Letter board for substitution practice */
+.cipher-board{display:flex;flex-wrap:wrap;gap:13px 16px;align-items:flex-start;background:#f4f7f9;border-radius:6px;padding:18px;margin-top:10px}
+.cipher-word{display:inline-flex;gap:2px;align-items:flex-end;max-width:100%}
+.cipher-cell{display:flex;flex-direction:column;align-items:center;gap:3px;width:31px;flex:none}
+.cipher-cell input{display:block;width:31px;height:34px;padding:2px;border:1px solid #9baab8;border-radius:3px;text-align:center;text-transform:uppercase;font:600 18px/1 Geist,system-ui,sans-serif;color:var(--ink);background:#fff}
+.cipher-cell input:focus{border-color:var(--blue)}
+.cipher-cell span{font:500 13px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted)}
+.cipher-punctuation{font-size:22px;align-self:flex-start;padding:4px 1px}
+.frequency-list{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0 12px}
+.frequency-list span{display:flex;align-items:baseline;justify-content:space-between;gap:8px;min-width:47px;padding:5px 7px;border:1px solid var(--line);border-radius:4px;background:#f7f9fa}
+.frequency-list strong{font:600 13px/1 ui-monospace,SFMono-Regular,Menlo,monospace}
+.frequency-list small{font-size:11px;color:var(--muted)}
+.mapping{grid-template-columns:repeat(auto-fit,minmax(31px,1fr));gap:5px}
+@media(max-width:420px){.cipher-board{padding:12px;gap:10px 13px}.cipher-cell,.cipher-cell input{width:29px}}

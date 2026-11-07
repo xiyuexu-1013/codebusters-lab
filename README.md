@@ -2,7 +2,7 @@
 
 An interactive, bilingual learning site for Science Olympiad 2026–27 Division C Codebusters. English is the default (`dist/index.html`); the full Chinese version is at `dist/zh.html`. The language links retain the current page or lesson. Both versions share browser-local progress.
 
-The site includes 12 staged lessons, original short exercises, stepwise hints, automatic grading, decoding workbenches, local progress tracking, and a 15-minute mixed practice set.
+The site includes 12 staged lessons, original short exercises, linked letter boxes and frequency counts for substitution practice, stepwise hints, automatic grading, decoding workbenches, local progress tracking, and a 15-minute mixed practice set.
 
 ## Run locally
 
