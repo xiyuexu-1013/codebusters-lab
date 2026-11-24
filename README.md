@@ -28,3 +28,7 @@ Caesar is taught as a foundation exercise, not labeled a listed 2027 Division C 
 - [Toebes Codebusters Overview PDF](https://toebes.com/codebusters/Samples/CodeBusters_Overview.pdf), updated for 2026–27 and containing historical material to distinguish from current scope.
 
 The site's Resources page also links videos listed by Science Olympiad or the Toebes tool site. Older videos are labeled by season and do not replace current rules.
+
+## Implementation
+
+Static JavaScript and HTML lessons; bilingual progress persists in browser localStorage. The repository includes the runnable static site under dist/.
